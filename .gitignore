@@ -1,0 +1,15 @@
+*.DS_Store
+*.nrrd
+*.npz
+
+env/
+output/
+__pycache__/
+
+/res/*
+!/res/.gitkeep
+
+/*.volpkg/*
+!/*.volpkg/.gitkeep
+
+client/textures/inklabels.png
